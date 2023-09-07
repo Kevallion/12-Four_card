@@ -1,0 +1,58 @@
+/********* FONTS *************/
+@font-face {
+    font-family: "Poppins lights";
+    src: url("../fonts/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins semibold";
+    src: url("../fonts/Poppins-SemiBold.ttf");
+}
+
+$font1:Poppins lights, sans-serif;
+$font2:Poppins Regular, sans-serif;
+$font3:Poppins semibold, sans-serif;
+
+/******** COLORS *************/
+$Red1: hsl(0, 78%, 62%);
+$Cyan1: hsl(180, 62%, 55%);
+$Orange1: hsl(34, 97%, 64%);
+$Blue1: hsl(212, 86%, 64%);
+
+$veryDarkBlue: hsl(234, 12%, 34%);
+$grayisBlue: hsl(229, 6%, 66%);
+$veryLightGray: hsl(0, 0%, 98%);
+
+/****** GENERAL PARAMETER **********/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+    color: $veryDarkBlue;
+}
+
+p{
+    font-family: $font1;
+    
+}
+
+.attribution{
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
